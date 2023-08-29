@@ -4,8 +4,6 @@ La segunda debe tomar 2 parametros de entrada y no usar return para regresar el 
 
 const arreglo = [1,2,3,4,5,6,7,8,9,10];
 
-
-
 const funcion_1 = (arreglo) => {
     let suma = 0
     for (let i = 0; i < arreglo.length; i++) {
@@ -17,7 +15,6 @@ const funcion_1 = (arreglo) => {
 }
 
 const funcion_2 = (num1,num2) => num1*num2;
-
 const callback = (num, funcion1,funcion2) => {
     let resultado1 = funcion1(arreglo)
     console.log(resultado1);
