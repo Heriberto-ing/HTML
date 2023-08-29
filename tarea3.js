@@ -1,6 +1,6 @@
 //Construir un arreglo con mínimo 2 objetos.
 //Cada objeto debe tener otro objeto dentro.
-//Para este arreglo, usar mínimo 3 3 métodos de JavaScript de los vistos en clase.
+//Para este arreglo, usar mínimo 3 métodos de JavaScript de los vistos en clase.
 
 const Peliculas = [
     {nombre: 'Madagascar 3', vista: true, caracteristicas:{
