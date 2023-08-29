@@ -5,10 +5,12 @@
 const Peliculas = [
     {nombre: 'Madagascar 3', vista: true, caracteristicas:{
         tipoPeli: 'Aventura', genero: 'Comedia'
-    }},
+    }
+    },
     {nombre: 'Francotirador II', vista: false, caracteristicas:{
         tipoPeli: 'Accion', genero: 'ficcion'
-    }}
+    }
+    }
 ]
 
 //Mostrar peliculas vistas
@@ -23,5 +25,6 @@ Peliculas.forEach((peli) => {
     if (peli.nombre === "Madagascar 3") {
         peli.caracteristicas.genero = "terror"
     }
-})
+}
+)
 console.log(Peliculas);
