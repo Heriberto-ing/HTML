@@ -8,7 +8,7 @@ distinto al de la página usando los condicionales en JavaScript. */
             const Condicionales = (num1,num2) => {
                 let suma = 0, resta = 0, multiplicacion = 0, division = 0;
             
-                if (array.includes(num1) && AR.includes(num2)) {
+                if (AR.includes(num1) && AR.includes(num2)) {
                     console.log("Los números ya están insertados en el arreglo");
                 } else if (AR.includes(num1) && !AR.includes(num2)) {
                     num2 = 2;
