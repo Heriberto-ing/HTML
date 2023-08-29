@@ -3,16 +3,16 @@
 -Leer los condicionales que existen en JavaScript del link entregado y de cada uno realizar un ejemplo
 distinto al de la página usando los condicionales en JavaScript. */
 
-            const array = [1,2,3,4,5,6,7,8,9,10,11];
+            const AR = [1,2,3,4,5,6,7,8,9,10,11];
 
             const Condicionales = (num1,num2) => {
                 let suma = 0, resta = 0, multiplicacion = 0, division = 0;
             
-                if (array.includes(num1) && array.includes(num2)) {
-                    console.log("Los números ya están insertados en el array");
-                } else if (array.includes(num1) && !array.includes(num2)) {
+                if (array.includes(num1) && AR.includes(num2)) {
+                    console.log("Los números ya están insertados en el arreglo");
+                } else if (AR.includes(num1) && !AR.includes(num2)) {
                     num2 = 2;
-                } else if (array.includes(num2) && !array.includes(num1)) {
+                } else if (AR.includes(num2) && !AR.includes(num1)) {
                     num1 = 2;
                 } else{
                     num1 = 1;
@@ -20,8 +20,8 @@ distinto al de la página usando los condicionales en JavaScript. */
                 }
             
                 suma = num1 + num2;
-                resta = array[num1] - num2;
-                multiplicacion = array[num2] * num1;
+                resta = AR[num1] - num2;
+                multiplicacion = AR[num2] * num1;
                 division = num1 / num2;
                 
                 console.log(`
@@ -33,10 +33,10 @@ distinto al de la página usando los condicionales en JavaScript. */
             
             }
             
-            Condicionales(0,13);
+            Condicionales(0,10);
             //------------------------------------------------------------------------------
             
-            const mis_peliculas = [
+            const mi_pelicula = [
                 {
                     Opcion : "1",
                     Titulo: "Río 1",
@@ -44,7 +44,7 @@ distinto al de la página usando los condicionales en JavaScript. */
                 },{
                     Opcion : "2",
                     Titulo: "Río 2",
-                    Vista: false
+                    Vista: true
                 },{
                     Opcion : "3",
                     Titulo: "Los vengadores: Endgame",
@@ -56,19 +56,19 @@ distinto al de la página usando los condicionales en JavaScript. */
                 }
             ]
             
-            function Peliculas( ) {
-                for (const pelicula of mis_peliculas) {
+            function Pelicula( ) {
+                for (const pelicula of mi_pelicula) {
                     if (pelicula.vista) {
-                        console.log(`Ya viste: ${pelicula.titulo} \n`)
+                        console.log(`Ya has visto las siguientes peliculas: ${pelicula.titulo} \n`)
                     }else{
-                        console.log(`Aún te falta por ver: ${pelicula.titulo} \n`)
+                        console.log(`Aún te hace falta por ver: ${pelicula.titulo} \n`)
                     }
                 }
             }
             
-            Peliculas();
+            Pelicula();
             
-            //----------------------------------------------------------------
+            ---
             
             const num_Base = 4;
             let factorial = 1;
@@ -78,8 +78,8 @@ distinto al de la página usando los condicionales en JavaScript. */
             }
             
             console.log(`El factorial de ${num_Base} es: ${factorial}\n`);
-            
-            //-----------------------------------------------------------------
+
+            ---
             
             function while_switch(num1, num2, num3) {
                 switch (num1) {
