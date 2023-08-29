@@ -48,8 +48,8 @@ class gato extends Animal{
     }
 }
 
-const labrador = new Gato('Siames','Gris','meow','adulto');
-labrador.lamer();
+const Siames = new Gato('Siames','Gris','meow','adulto');
+Siames.lamer();
 console.log(Siames.sonidoCaracteristico()); //regresa en console 'meow'
 
 //clases que reciben objetos
