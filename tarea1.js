@@ -33,7 +33,7 @@ distinto al de la página usando los condicionales en JavaScript. */
             
             }
             
-            Condicionales(0,10);
+            Condicionales(0,11);
             //------------------------------------------------------------------------------
             
             const mi_pelicula = [
