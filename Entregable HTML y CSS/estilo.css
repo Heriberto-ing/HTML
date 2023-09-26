@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    line-height: 2;
+    font-size: 2rem;
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/1579091377/display_1500/stock-vector-internet-digital-syber-security-technology-concept-for-business-background-lock-on-circuit-board-1579091377.jpg');
+}
+
+header{
+    border: solid gold;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header h1, h2{
+    color: black;
+    font-style: italic;
+}
+header h1 span{
+    color: orange;
+}
+header h1 i{
+    color: blue;
+}
+
+main{
+    margin-top: 4rem;
+    text-align: center; 
+    font-style: oblique;
+    color: black;
+    padding: 2rem;
+}
+
+main p b, p i{
+    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+article{
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article section{ 
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: gold solid;
+    color: black;
+}
+
+
+article section a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: blue;
+    border-radius: .5rem;
+    font-size: 2rem;
+}
+article section a:hover{
+    background-color: darkslateblue;
+}
+
+footer{
+    margin: 0 auto;
+    padding: 4rem;
+    text-align: center;
+    max-width: 80%;
+}
+footer h3{
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+footer label{
+    color: black;
+    text-align: center;
+}
